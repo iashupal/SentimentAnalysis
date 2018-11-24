@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        textarea{
+            resize: none;
+            width: 500px;
+            height: 100px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>Sentiment Analysis</h1>
+<form action="cgi-bin/SentimentAnalysis.py">
+    <table>
+        <tr>
+            <td>Enter your review</td>
+            <td>
+                <textarea name="review" id="" cols="1" rows="1" placeholder="Enter your review"></textarea>
+            </td>
+        </tr>
+        <td>
+            <input type="reset">
+        </td>
+        <td>
+            <input type="submit">
+        </td>
+    </table>
+</form>
+</body>
+</html>
